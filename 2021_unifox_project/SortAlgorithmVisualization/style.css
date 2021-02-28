@@ -1,0 +1,20 @@
+#button_list{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+}
+
+.button{
+    width: 25%;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#sort_board{
+    margin-top: 10px;
+    height: 850px;
+    border: 2px solid black;
+    display: flex;
+    overflow: hidden;
+}

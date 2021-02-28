@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>정렬알고리즘 시각화</title>
+    <script src="./sort.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .arr_list{
+            border: 1px solid black;
+            align-self: flex-end;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="button_list">
+        <div class="button reset" onmouseout="button_down(this)" onmouseover="button_over(this)" onClick="window.location.reload()">배열 리셋</div>
+        <div class="button quick_sort" onmouseout="button_down(this)" onmouseover="button_over(this)" onclick="quick_sort()">퀵 정렬</div>
+        <div class="button select_sort" onmouseout="button_down(this)" onmouseover="button_over(this)" onclick="select_sort()">선택 정렬</div>
+        <div class="button bubble_sort" onmouseout="button_down(this)" onmouseover="button_over(this)" onclick="bubble_sort()">버블 정렬</div>
+    </div>
+
+    <div id="sort_board">
+    </div>
+        
+</body>
+</html>
